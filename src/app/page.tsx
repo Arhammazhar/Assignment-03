@@ -6,11 +6,11 @@ export default function Home() {
       <div className="child">
          <h1 className="heading"><span className="color">Introduction</span> <br /></h1>
          <div className="child">
-        Hey there! <br />My name is Arham. <br />I am a student in GIAIC!
+        Hey there! <br />My name is <span className="greenColor">Arham</span> <br />I am a student in GIAIC!
           </div>
       </div>
-      <div className="child">
-        <Image src={Author}  alt="Me" width={500} height={400}/>
+      <div className="image">
+        <Image src={Author}  alt="Me" width={300} height={400}/>
       </div>
     </div>
   );

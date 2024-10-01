@@ -6,10 +6,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 250px;
+  height: 400px;
+  background-color: antiquewhite;
 }
 .child{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 50px;
   font-weight: 900;
   width: fit-content;
@@ -23,4 +24,31 @@
 }
 .color{
   color: blue;
+}
+
+.greenColor{
+  color: rgb(0, 162, 255);
+}
+
+.header{
+  background-color: rgb(255, 153, 0);
+}
+
+.headerButtons{
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: blanchedalmond;
+  font-size: 40px;
+  gap: 40px;
+}
+
+.image{
+  margin: 30px;
+  
+}
+.items{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
 }
